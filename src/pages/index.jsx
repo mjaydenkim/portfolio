@@ -91,11 +91,11 @@ const Index = () => (
             You can click this if you want, I guess, but there's really nothing there.
           </ProjectCard>
           <ProjectCard
-            title="YouTube Channel"
-            link="https://www.bit.ly/mygdchannel"
+            title="My Life in Pictures"
+            link="/mlip"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A link to my YouTube channel.
+            4 Pictures for every year of life- a slideshow.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
