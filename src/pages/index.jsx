@@ -64,7 +64,7 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Matthew Kim.
         </BigTitle>
-        <Subtitle>I'm a 7th grader at Egan Junior High, and this is my portfolio of projects. </Subtitle>
+          <Subtitle>I'm a 7th grader at Egan Junior High, and this is my portfolio of projects. </Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -104,11 +104,12 @@ const Index = () => (
         <AboutHero>
           <Avatar src={toga} alt="Matthew Kim" />
           <AboutSub>
-            I am a 7th grader at Egan Middle School. I like Rubik's Cubes.
+            I am Matthew Kim, a 7th grader at Egan Middle School.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          This is a description I haven't written yet.
+          I like Rubik's Cubes. I also like playing video games (like Overwatch, even though I suck.) I also love watching anime (hence my profile picture of Toga Himiko from My Hero Academia)
+          and I also enjoy coding, hence this website.
         </AboutDesc>
       </About>
       {/* <Contact offset={4}>
