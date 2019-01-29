@@ -112,21 +112,11 @@ const Index = () => (
           and I also enjoy coding, hence this website.
         </AboutDesc>
       </About>
-      {/* <Contact offset={4}>
-        <Inner>
-          <Title>Get in touch</Title>
-          <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
-          </ContactText>
-        </Inner>
         <Footer>
           &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
           <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
           <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
-      </Contact> */}
     </Parallax>
   </>
 )
