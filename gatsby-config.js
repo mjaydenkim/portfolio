@@ -20,6 +20,12 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-manifest',

@@ -1,6 +1,7 @@
 const tailwind = require('../tailwind')
 
 module.exports = {
+  resolve: `gatsby-plugin-manifest`,
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
 
   siteTitle: 'Matthew Kim- Egan Portfolio', // Navigation and Site Title
@@ -12,6 +13,7 @@ module.exports = {
   siteLogo: '/logo.jpg', // Used for SEO and manifest
   siteDescription: 'Playful & Colorful One-Page website with Parallax effect',
   author: 'LekoArts', // Author for schema.org JSONLD
+  icon: `src/images/egan.png`, 
 
 //   // siteFBAppID: '123456789', // Facebook App ID - Optional
 //   userTwitter: '@cara', // Twitter Username
@@ -21,4 +23,5 @@ module.exports = {
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
   backgroundColor: tailwind.colors.blue,
+
 }
