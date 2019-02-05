@@ -84,11 +84,11 @@ const Index = () => (
             This is my Semester 1 Reflection at Egan.
           </ProjectCard>
           <ProjectCard
-            title="A blank thing"
-            link="https://www.youtube.com/watch?v=6n3pFFPSlW4"
+            title="A poster about me"
+            link="/aboutmeposter"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            You can click this if you want, I guess, but there's really nothing there.
+            This is an image poster that shows things about me and that I like.
           </ProjectCard>
           <ProjectCard
             title="My Life in Pictures"
