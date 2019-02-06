@@ -106,6 +106,7 @@ const Head = props => {
       <meta name="twitter:image:alt" content={description} />
       <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>
       <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+      <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet"/>
     </Helmet>
   )
 }

@@ -1,9 +1,10 @@
 import SVG from '../components/SVG'
 import { UpDown, UpDownWide } from '../styles/animations'
 import { colors } from '../../tailwind'
+import MyFrame from '../components/aboutme-iframe'
 
-<div style="z-index:0;position:relative;background-color:black;box-sizing:border-box;">
-  <div style='z-index:-1;position:relative;height:50vh;width:85vw;margin-bottom:-50vh;'>
+<div style="z-index:-1;position:relative;background-color:black;box-sizing:border-box;">
+  <div style='z-index:-2;position:relative;height:100vh;width:85vw;margin-bottom:-95vh;'>
     <UpDown>
       <SVG icon="triangle" hiddenMobile width={48} stroke={colors.orange} left="10%" top="20%" />
       <SVG icon="hexa" width={48} stroke={colors.red} left="60%" top="70%" />
@@ -30,5 +31,22 @@ import { colors } from '../../tailwind'
     <SVG icon="hexa" width={16} stroke={colors['grey-darker']} left="10%" top="50%" />
     <SVG icon="hexa" width={8} stroke={colors['grey-darker']} left="80%" top="70%" />
   </div>
-  <iframe src="https://docs.google.com/a/lasdk8.org/document/d/e/2PACX-1vQSKgVJhB4w60UxHLgyk8CQwU44np3WkOT6tDHM8gQ_BAlSH_YnhH7N6umfYxBeSF8dLNgDYTT8VNlZ/pub?embedded=true" height="750" width="600" style="display:block;margin:auto;z-index:1000;overflow:auto;"/>
+  {/* <MyFrame></MyFrame> */}
+  
+</div>
+
+<article style="color: white; padding: 2em; font-family: 'Coming Soon', cursive;">
+
+## Hello
+
+My name is Matthew Kim and I am a seventh grader from Egan Junior High. My hobbies are solving Rubik’s Cubes, doing math, and playing video games. I do Rubik’s Cubes a lot and have for the past few years, and sometimes I do it so much that my wrists hurt and sometimes my parents take it away from me as well. My best time is 8.89 seconds for the normal 3x3 Rubik’s Cube, and my best time with one hand is 18.90, which is something I am particularly proud of. I have also been to some competitions. One was in Berkeley (and they also had a machine giving out free skittles, which was cool,) and the other was in Roseville (where I stayed up until 12:00 playing Cuphead and beating Beppi the Clown, which was surprisingly satisfying.) I also like to play different video games- I play Overwatch (I’m a D.va main if you know what that is,) and Geometry Dash (although my parents have restricted me from playing as I got extremely addicted to the game.) I also play Beat Saber (which is a VR game where the player slices blocks that are timed to the music. It’s surprisingly fun.) I also like to edit videos (with Camtasia 9) and watch anime/read manga. (My Hero Academia is the best thing I’ve ever watched, in case you’re interested in any anime.) I also own a YouTube channel, where I post mostly Geometry Dash videos sprinkled with some Beat Saber, Overwatch (occasionally,) and cubing, although I am not able to play Geometry Dash anymore. I also do a lot of coding. I have a tutor that comes over and teaches me coding 3 hours a week (split into 1 and 2 hour periods over 2 days.) I am learning specifically in JavaScript (with React,) and also practicing some Python. I am also working on a blog, although it is barely set up yet. Some other things I like to do to pass time are listen to music and watch YouTube. I listen to all different kinds of electronic music as well as occasional Japanese pop and Lana Del Rey, but I mostly listen to electronic. Some of my favorite songs are Odd Future (which comes from My Hero Academia) and Shelter by Porter Robinson and Madeon. I went to Covington from kindergarten to sixth grade, and then moved to Egan in seventh. Before living in Los Altos, my family and I lived in San Jose, and we moved right when I started kindergarten because of the exceptional school system in this area. We are remodeling our house, and we are doing a full house remodel and an expansion. The contractors said we would finish in 6 months but most people we’ve talked to have said that that was not a reasonable guess, but we hope that the contractors are correct. My favorite movie I’ve seen is Spider-Man: Into the Spider-Verse. I watched it on Christmas Day in Southern California. I didn’t know what to expect going in, and I didn’t expect much action considering it was animated and PG-rated. It was actually really good, and there was a lot of engaging action. I would recommend it.
+</article>
+<div style="display:flex;padding:10em; margin: 0 auto; ">
+
+![My Hero Academia](https://m.media-amazon.com/images/M/MV5BNmQzYmE2MGEtZjk4YS00YmVjLWEwZWMtODRkMjc4MTM5N2I3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg)
+
+</div>
+
+<div style="display:flex;justify-content:center;align-items:center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ldxmMIPK7WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="z-index:10;position:relative" allowfullscreen></iframe>
 </div>
