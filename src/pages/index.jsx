@@ -124,7 +124,7 @@ const Index = () => (
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             This is a haiku about one of the best websites to ever exist, Reddit.
-        </ProjectsWrapper>
+        </ProjectCard>
         <ProjectCard
             title="Creative Writing"
             link="/creativewriting"
@@ -145,6 +145,7 @@ const Index = () => (
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             This is a sonnet about my history with Rubik's Cubes!
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
