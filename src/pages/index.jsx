@@ -146,6 +146,13 @@ const Index = () => (
           >
             This is a sonnet about my history with Rubik's Cubes!
           </ProjectCard>
+          <ProjectCard
+            title="Movie Review"
+            link="/transylvania"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+          I reviewed Hotel Transylvania 3. tl;dr: It was terrible.
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
