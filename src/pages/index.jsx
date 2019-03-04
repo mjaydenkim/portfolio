@@ -84,19 +84,67 @@ const Index = () => (
             This is my Semester 1 Reflection at Egan.
           </ProjectCard>
           <ProjectCard
-            title="A poster about me"
-            link="/aboutmeposter"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            This is an image poster that shows things about me and that I like.
-          </ProjectCard>
-          <ProjectCard
             title="My Life in Pictures"
             link="/mlip"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             4 Pictures for every year of life- a slideshow.
           </ProjectCard>
+          <ProjectCard
+            title="About Me Poster"
+            link="/aboutmeposter"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            A poster with pictures that describe me.
+          </ProjectCard>
+          <ProjectCard
+            title="How to Solve A Rubik's Cube Blindfolded"
+            link="/solvecubebld"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            This is a 20-step tutorial on how to solve the Rubik's Cube blindfolded.
+          </ProjectCard>
+          <ProjectCard
+            title="Haiku 1"
+            link="/thishaikuistrash"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+          This is a haiku. And it's trash.
+          </ProjectCard>
+          <ProjectCard
+            title="Haiku 2"
+            link="/haiktsu"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            This is a haiku celebrating the best frog girl in anime ever, Tsuyu Asui!
+          </ProjectCard>
+          <ProjectCard
+            title="Haiku 3"
+            link="/reddithaiku"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            This is a haiku about one of the best websites to ever exist, Reddit.
+        </ProjectsWrapper>
+        <ProjectCard
+            title="Creative Writing"
+            link="/creativewriting"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+          For this assignment, I expanded a chapter of Boku no Hero Academia. May have spoilers.
+          </ProjectCard>
+          <ProjectCard
+            title="Freeverse"
+            link="/freeverse"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            This is a 20-line freeverse poem celebrating the battle against Goopy Le Grande in the world of Cuphead.
+          </ProjectCard>
+          <ProjectCard
+            title="Sonnet"
+            link="/sonnet"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            This is a sonnet about my history with Rubik's Cubes!
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
