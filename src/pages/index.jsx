@@ -157,8 +157,9 @@ const Index = () => (
             title="Topics"
             link="/topics"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-            These are my hobbies, put into a nested list.
           >
+          These are my hobbies, put into a nested list.
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
