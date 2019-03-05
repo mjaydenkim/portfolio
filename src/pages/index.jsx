@@ -151,8 +151,14 @@ const Index = () => (
             link="/transylvania"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-          I reviewed Hotel Transylvania 3. tl;dr: It was terrible.
+          I reviewed Hotel Transylvania 3. Tl;dr: It was terrible.
           </ProjectCard>
+          <ProjectCard
+            title="Topics"
+            link="/topics"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            These are my hobbies, put into a nested list.
+          >
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
