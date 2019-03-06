@@ -67,7 +67,7 @@ const Index = () => (
           <Subtitle>I'm a 7th grader at Egan Junior High, and this is my portfolio of projects. </Subtitle>
       </Hero>
       <Projects offset={1}>
-<!--         <Title>Projects</Title> -->
+        {/*<Title>Projects</Title>*/}
         <ProjectsWrapper>
           <ProjectCard
             title="About Me"
@@ -163,7 +163,7 @@ const Index = () => (
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-<!--         <Title>About</Title> -->
+        {/*<Title>About</Title>*/}
         <AboutHero>
           <Avatar src={toga} alt="Matthew Kim" />
           <AboutSub>
