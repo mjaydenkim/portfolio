@@ -160,6 +160,13 @@ const Index = () => (
           >
           These are my hobbies, put into a nested list.
           </ProjectCard>
+          <ProjectCard
+            title="Nintendo Switch History"
+            link="/switch"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            This is a little history lesson on the Nintendo Switch!
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
