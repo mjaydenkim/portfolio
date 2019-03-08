@@ -167,6 +167,13 @@ const Index = () => (
           >
             This is a little history lesson on the Nintendo Switch!
           </ProjectCard>
+          <ProjectCard
+            title="Monologue"
+            link="/monologue"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+          For this assignment, I read "Burger King Foot Lettuce." Prepare yourself.
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
