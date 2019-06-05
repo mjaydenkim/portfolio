@@ -190,7 +190,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Endgame Trailer"
-            link="/aboutmeposter"
+            link="/trailer"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
           For this project, we sang the Endgame trailer. You probably don't want this.
