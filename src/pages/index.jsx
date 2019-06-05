@@ -188,6 +188,13 @@ const Index = () => (
           >
           I created a music video featuring aerials and the song "Sad Machine" by Porter Robinson.
           </ProjectCard>
+          <ProjectCard
+            title="Endgame Trailer"
+            link="/aboutmeposter"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+          For this project, we sang the Endgame trailer. You probably don't want this.
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
