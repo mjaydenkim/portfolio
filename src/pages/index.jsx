@@ -174,6 +174,20 @@ const Index = () => (
           >
           For this assignment, I read "Burger King Foot Lettuce." Prepare yourself.
           </ProjectCard>
+          <ProjectCard
+            title="Trilogue"
+            link="/trilogue"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+          For this assignment, we read the script of "The Crack! - Mac vs. PC".
+          </ProjectCard>
+          <ProjectCard
+            title="Individual Music Video"
+            link="/musicvideo"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+          I created a music video featuring aerials and the song "Sad Machine" by Porter Robinson.
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
