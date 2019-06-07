@@ -195,6 +195,20 @@ const Index = () => (
           >
           For this project, we sang the Endgame trailer. You probably don't want this.
           </ProjectCard>
+          <ProjectCard
+            title="Face Merges"
+            link="/facemerges"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            5 photos with my face on something else, or someone else's face on mine.
+          </ProjectCard>
+          <ProjectCard
+            title="Animal Edits"
+            link="/animal"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            10 photos with parts of my face on animals, or vice versa. Be careful, some of these photos are cursed.
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
